@@ -25,7 +25,7 @@ public class DepartmentServiceTest {
 
 
     @ExtendWith(MockitoExtension.class)
-    public class DepartmentServiceImplTest {
+    public static class DepartmentServiceImplTest {
 
         @Mock
         private EmployeeServiceImpl employeeService;
